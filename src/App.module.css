@@ -51,6 +51,8 @@
     color: coral;
 }
 .rickAndMoryLink{
+
+    font-size: 20px;
     text-decoration: none;
     color: black;
     transition: .2s all linear;
