@@ -1,0 +1,17 @@
+.characterCard{
+    border: 1px solid;
+    padding: 15px;
+    background-color: white;
+}
+.imgContainer{
+    margin-bottom: 40px;
+}
+.img{
+    display: block;
+    margin: 0 auto;
+
+}
+.text{
+    margin: 0;
+    margin-bottom: 10px;
+}

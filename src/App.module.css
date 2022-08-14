@@ -1,0 +1,60 @@
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+.logo{
+    text-align: center;
+    margin: 0;
+    color: coral;
+}
+.header{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: lightblue;
+}
+.main{
+    padding-top: 80px;
+    background-color:lavenderblush;
+    padding-bottom: 80px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.authorFlex{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: lightblue ;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+.footer_flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.authorText{
+    text-decoration: none;
+    color: black;
+    transition: .2s all linear;
+}
+.authorText:hover{
+    color: coral;
+}
+.rickAndMoryLink{
+    text-decoration: none;
+    color: black;
+    transition: .2s all linear;
+}
+.rickAndMoryLink:hover{
+    color: coral;
+}
