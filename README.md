@@ -1,6 +1,6 @@
 # Rick and Moty Api
 
-Простая пагинация с использованием Api [Rick and Moty Api](https://rickandmortyapi.com/).
+Простая пагинация с использованием Api: [Rick and Moty Api](https://rickandmortyapi.com/).
 
 ### Используемые инструменты:
 <li> React Ts
