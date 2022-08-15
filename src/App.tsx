@@ -51,6 +51,15 @@ function App() {
               <Character key={char.id} character={char} />
             ))}
           </div>
+          <div className={classes.pagination}>
+            <Pagination
+              page={currentPage}
+              count={pageCount}
+              onChange={(_, num) => {
+                setCurrentPage(num);
+              }}
+            />
+          </div>
         </div>
       </main>
       <footer className={classes.footer}>

@@ -21,7 +21,7 @@ const Character = ({ character }: CharacterProps) => {
       <div className={classes.characterInfo}>
         <p className={classes.text}>Name: {character.name}</p>
         <p className={classes.text}>Status: {character.status}</p>
-        <p className={classes.text}>Species:{character.species}</p>
+        <p className={classes.text}>Species: {character.species}</p>
         <p className={classes.text}>Gender: {character.gender}</p>
         <p className={classes.text}>Type: {character.type}</p>
       </div>
