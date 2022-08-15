@@ -22,6 +22,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    margin-bottom: 40px;
 }
 .authorFlex{
     display: flex;
@@ -59,4 +60,9 @@
 }
 .rickAndMoryLink:hover{
     color: coral;
+}
+.pagination{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
 }
